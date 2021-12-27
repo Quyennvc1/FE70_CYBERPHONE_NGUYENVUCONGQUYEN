@@ -1,0 +1,17 @@
+footer {
+  background-color: $primary-color;
+  padding-bottom: 60px;
+  color: $color-white;
+  ul {
+    li {
+      a,
+      a:hover {
+        font-size: 14px;
+        font-weight: 600;
+        color: $color-white;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+}

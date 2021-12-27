@@ -1,0 +1,35 @@
+.banner {
+  background-image: url(../image/product-header-bg.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  padding: 225px 0;
+  @include Responsive(LG) {
+    padding: 150px 0;
+  }
+  @include Responsive(SM) {
+    padding: 100px 0;
+  }
+  .banner__left {
+    h1 {
+      font-size: 70px;
+      font-weight: 700;
+      color: $primary-color;
+      @include Responsive(MD) {
+        font-size: 44px;
+      }
+    }
+    h3 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: $primary-color-title;
+      letter-spacing: 0.015rem;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: $primary-color-description;
+      margin-bottom: 25px;
+    }
+  }
+}
